@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.nav-link {
+  @apply rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-[#E4414E] hover:text-white;
+}
+
+.router-link-exact-active.nav-link {
+  @apply bg-[#FF4655] text-white;
+}
